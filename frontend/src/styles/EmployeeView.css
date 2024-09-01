@@ -1,0 +1,13 @@
+.btn {
+    border-color: lightgray;
+    border-width: 2px;
+    background-color: #e7e7e7;
+    color: black;
+    transition-duration: 0.3s;
+}
+.btn:disabled {
+    border-color: lightgray;
+}
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
